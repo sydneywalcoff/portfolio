@@ -1,13 +1,55 @@
 /* Universal Styles */
+:root{
+    
+}
+
 * {
     margin: 0 0;
 }
 
+body {
+    margin: 0 25%;
+    font-family: 'Poppins' sans-serif;
+}
+
 /* header */
+header {
+    display: flex;
+    color: #000;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 20px;
+}
 
 /* hero */
 
 /* about */
+#about-me img {
+    max-width: 250px;
+    border-radius: 50%;
+}
 
 /* projects */
 

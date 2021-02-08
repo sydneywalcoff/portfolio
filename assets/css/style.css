@@ -1,6 +1,6 @@
 /* Universal Styles */
 :root{
-    
+    --primary-color: #000;
 }
 
 * {
@@ -14,7 +14,7 @@ body {
 
 a {
     text-decoration: none;
-    color:#000;
+    color:var(--primary-color)
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
 }
 
 .section-title {
-    border-bottom: 1px solid rgba(0,0,0,0.65);
+    border-bottom: 1px solid var(--primary-color);
     margin-bottom: 20px;
     padding-bottom: 8px;
 }
@@ -31,7 +31,7 @@ nav ul {
 /* header */
 header {
     display: flex;
-    color: #000;
+    color: var(--primary-color);
     justify-content: center;
     margin: 20px;
     flex-wrap: wrap;
@@ -83,9 +83,5 @@ footer {
 
 footer nav ul li {
     display: flex;
-    
-}
-
-footer nav ul li a {
     
 }

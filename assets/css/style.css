@@ -21,6 +21,10 @@ nav ul {
     list-style-type: none;
 }
 
+section {
+    margin: 5%;
+}
+
 .section-title {
     border-bottom: 1px solid var(--primary-color);
     margin-bottom: 20px;
@@ -76,14 +80,22 @@ header nav ul li {
 
 .feature-project {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 1%;
 }
 
 .feature-project img {
-    width: 500px;
-    height: 250px;
+    width: 80%;
+    height: 10%;
 }
+
+.feature-project .text {
+    width: 21%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
 
 .secondary-projects {
     display: flex;
@@ -95,11 +107,17 @@ header nav ul li {
 .project {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 1%;
+    width: 40%;
 }
 
 .project img {
-    width: 40%;
+    width: 90%;
+    flex-wrap: wrap;
 }
+
+
 
 
 /* contact */

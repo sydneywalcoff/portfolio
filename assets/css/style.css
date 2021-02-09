@@ -20,6 +20,8 @@ a {
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 section {
@@ -125,6 +127,12 @@ header nav ul li {
 
 
 /* contact */
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info 
 
 /* footer */
 footer nav ul {

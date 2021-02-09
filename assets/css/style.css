@@ -28,7 +28,7 @@ section {
 
 .section-title {
     border-bottom: 1px solid var(--primary-color);
-    margin-bottom: 20px;
+    margin-bottom: 2.5%;
     padding-bottom: 8px;
 }
 
@@ -113,6 +113,8 @@ header nav ul li {
 .project img {
     width: 90%;
     margin: 0 auto;
+    height: 200px;
+    object-fit: cover;
 }
 
 .project h3, .project p {

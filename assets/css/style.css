@@ -88,6 +88,8 @@ header nav ul li {
 .feature-project img {
     width: 80%;
     margin: 0 auto;
+    height: 300px;
+    object-fit: cover;
 }
 
 .feature-project .text {

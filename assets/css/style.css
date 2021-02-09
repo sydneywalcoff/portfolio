@@ -119,24 +119,19 @@ header nav ul li {
     object-fit: cover;
 }
 
-.project h3, .project p {
+ .project h3, .project p {
     margin: 0 auto;
 }
-
-
 
 
 /* contact */
 
 /* footer */
-
-footer {
+footer nav ul {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 footer nav ul li {
-    display: flex;
-    
+    margin: 20px;
 }

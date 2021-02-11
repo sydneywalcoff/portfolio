@@ -137,24 +137,19 @@ header nav ul li {
     margin: 0 auto;
 }
 
-
-
 .casual, .professional {
     display: flex;
     flex-direction: column;
 }
 
-.contact-info 
 
 /* footer */
-
-footer {
+footer nav ul {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    padding: 0;
+    justify-content: center;
 }
 
 footer nav ul li {
-    display: flex;
-    
+    padding: 0 3% 3%;
 }

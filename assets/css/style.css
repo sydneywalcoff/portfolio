@@ -124,9 +124,27 @@ header nav ul li {
 }
 
 
-
-
 /* contact */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info .casual a,
+.contact-info .professional a,
+.contact-info .professional p,
+.contact-info .professional h3 {
+    margin: 0 auto;
+}
+
+
+
+.casual, .professional {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info 
 
 /* footer */
 

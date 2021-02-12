@@ -181,11 +181,6 @@ footer nav ul li {
     body {
         margin: 0 0;
     }
-    
-    /* About */
-    .about {
-        flex-wrap: wrap;
-    }
 
 
     /* Projects */
@@ -204,16 +199,20 @@ footer nav ul li {
 }
 
 @media only screen and (max-width: 768px) {
-
+    .about {
+        flex-direction: row;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .about {
         justify-content: center;
+        flex-wrap: wrap;
     }
 
-    /* Projects */
-    .feature-project a img {
-        
+    footer {
+        margin-top: 3%;
     }
+    
+    
 }
